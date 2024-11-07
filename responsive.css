@@ -1,0 +1,237 @@
+@media screen and (max-width: 1500px)
+{
+    /* Adjusts section heights for medium-large screens */
+    #about, footer
+    {
+        height: 40vh;
+    }
+  
+    #resume
+    {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+  
+    /* Sets a standard font size for articles */
+    article
+    {
+        font-size: 1rem;
+    }
+  
+    /* Adds spacing below footer navigation */
+    footer nav
+    {
+        margin-bottom: 2rem;
+    }
+  
+    /* Allows button containers to wrap for better layout */
+    .btn-container
+    {
+        flex-wrap: wrap;
+    }
+  
+    /* Centers and aligns about containers with gap for spacing */
+    .about-containers
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        gap: 1.2rem;
+    }
+  
+    /* Centers and stacks experience details in a column */
+    .experience-details-container
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+  
+    /* Sets font sizes for contact and nav links */
+    .contact-info-container p,
+    .nav-links li a
+    {
+        font-size: 1rem;
+    }
+  
+    /* Font size for skills subtitles and specific text */
+    .skills-sub-title, .section__text__p2
+    {
+        font-size: 1.25rem;
+    }
+  
+    /* Logo size adjustment */
+    .logo
+    {
+        font-size: 1.5rem;
+    }
+  
+    /* Keeps nav links in a row with spacing and centered text */
+    .nav-links
+    {
+        flex-direction: row;
+        gap: 0.5rem;
+        text-align: center;
+    }
+  
+    /* Sets title font size */
+    .title
+    {
+        font-size: 2rem;
+    }
+  
+    /* Justifies text within specific containers */
+    .text-container
+    {
+        text-align: justify;
+    }
+  }
+  
+  @media screen and (max-width: 1200px)
+  {
+    /* Hides desktop nav and shows hamburger menu on smaller screens */
+    #desktop-nav
+    {
+        display: none;
+    }
+  
+    #hamburger-nav
+    {
+        display: flex;
+    }
+  
+    /* Resizes and centers image container */
+    .section-image-container
+    {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+  
+    /* Displays about and section containers as blocks */
+    #about, .section-container
+    {
+        display: block;
+    }
+  
+    /* Adds top margin to resume and experience sections */
+    #resume, .experience-details-container
+    {
+        margin-top: 2rem;
+    }
+  
+    /* Ensures section containers fit their content */
+    section, .section-container
+    {
+        height: fit-content;
+    }
+  
+    /* Adds side margin to sections for better spacing */
+    section
+    {
+        margin: 0 5%;
+    }
+  
+    /* Resets top margin in about containers */
+    .about-containers
+    {
+        margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 1000px)
+  {
+    /* Sets section heights for smaller screens */
+    #about, footer
+    {
+        height: 40vh;
+    }
+  
+    #resume
+    {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+  
+    /* Resizes image container */
+    .section-image-container
+    {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 2rem;
+    }
+  
+    /* Adds bottom margin to footer nav */
+    footer nav
+    {
+        margin-bottom: 2rem;
+    }
+  
+    /* Stacks about containers vertically and centers them */
+    .about-containers
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        box-sizing: border-box;
+        margin: 0;
+    }
+  
+    /* Stacks nav-links vertically and centers them */
+    .nav-links
+    {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px)
+  {
+    /* Set section heights for very small screens */
+    #about, footer
+    {
+        height: 40vh;
+    }
+  
+    /* Set common height and side margins for main sections */
+    #resume, #experience, #education, #skills
+    {
+        height: 83vh;
+        margin: 0 5%;
+    }
+  
+    /* Set smaller size for the image container */
+    .section-image-container
+    {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 2rem;
+    }
+  
+    /* Stacks about containers vertically and centers them */
+    .about-containers
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        box-sizing: border-box;
+        margin: 0;
+    }
+  
+    /* Aligns nav-links vertically and centers them */
+    .nav-links
+    {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+  }
+  

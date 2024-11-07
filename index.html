@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv = "X-UA-Compatible" content = "IE=edge" />
+  <title>Pau Rodriguez</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel ="stylesheet" href ="responsive.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+</head>
+<body>
+
+  <!-- Navbar Section for Desktop + Hamburger Menu for Mobile Devices-->
+  <div id="navbar-container" aria-live="polite"></div>
+
+  <script>
+      fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById('navbar-container').innerHTML = data;
+          })
+          .catch(error => console.error('Error loading navbar:', error));
+  </script> 
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-image-container">
+      <img src="pau.jpg" alt="Portrait of Pau Rodriguez" />
+    </div>
+
+    <div class="section-text">
+      <p class="section-text-one">Hi there! I'm</p>
+      <h1 class="title">Pau Rodriguez</h1>
+      <p class="section-text-two">Computer Engineer Student</p>
+      <h3 class="section-text-three">
+        From a very young age, watching my father work with electronics and learning 
+        from tutorials to eventually fixing computers, consoles, and other devices on 
+        my own, I've developed a broad skill set and a genuine passion for understanding
+        how things work from the inside out. Today, I'm focused on expanding my knowledge
+        and exploring everything that technology has to offer, with a commitment to 
+        performance & precision in everything I do. 
+      </h3>
+
+      <div class="btn-container">
+        <button
+            class="btn btn-color-1"
+            onclick="location.href='resume.html'"
+            aria-label="Download my CV"
+          >
+          Download CV
+        </button>
+
+        <button
+            class="btn btn-color-2"
+            onclick="location.href='contact.html'"
+            aria-label="Go to Contact page"
+          >
+          Contact Me
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script> <!-- To load the Hamburger menu for mobile devices -->
+
+</body>
+</html>

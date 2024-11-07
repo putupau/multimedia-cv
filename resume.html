@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <meta name    = "viewport" content = "width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel = "stylesheet" href = "resume.css">
+  <link rel = "stylesheet" href = "navbar.css">
+  <link rel ="stylesheet" href ="responsive.css">
+
+  <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+  
+</head>
+<body>
+
+    <!-- Navbar Section for Desktop + Hamburger Menu for Mobile Devices-->
+    <div id="navbar-container" aria-live="polite"></div>
+
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading navbar:', error));
+    </script> 
+
+
+
+    <!-- Experience section -->
+    <section id    = "experience">
+        <p       class = "section-text-one">Learn About My</p>
+        <h1      class = "title">Experience</h1>
+            
+            <div class = "experience-details-container">
+
+                <div class = "about-containers">
+
+                    <div class = "details-container">
+
+                        <h2  class = "experience-sub-title">Mercadona</h2>
+                        <div class = "article-container">
+                            <article>
+                                <div>
+                                    <h3>Stock & Cashier</h3>
+                                    <p>
+                                        During my time with the company, I worked as a stocker
+                                        and cashier. My key responsibilities included maintaining accurate 
+                                        inventory and handling cashier operations while ensuring friendly 
+                                        and efficient customer service.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+
+                    <div class = "details-container">
+
+                        <h2  class = "experience-sub-title">Vichy Catalan</h2>
+                        <div class = "article-container">
+                            <article>
+                                <div>
+                                    <h3>Logistics</h3>
+                                    <p>
+                                        During my time with the company, I took on key responsibilities 
+                                        as a forklift operator. I managed machinery in production, 
+                                        operated forklifts for loading and unloading goods, and organized
+                                        products efficiently in logistics, ensuring smooth operations 
+                                        and strict adherence to safety standards.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                    <div class = "details-container">
+
+                        <h2  class = "experience-sub-title">Vichy Catalan</h2>
+                        <div class = "article-container">
+                            <article>
+                                <div>
+                                    <h3>Production</h3>
+                                    <p>
+                                        During my time with the company, I handled essential 
+                                        tasks as a bottle-blower mechanic. I controlled, maintained, 
+                                        and repaired bottle-blowing machinery and used forklifts to 
+                                        load and unload bottle preforms. I worked intensive shifts to ensure
+                                        operational continuity, strictly following safety standards 
+                                        for a secure, efficient workplace.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+    <div class="center-button">
+        <a href="#download" class="redirect-btn">
+          <i class="fas fa-download"></i> Take me to the download section
+        </a>
+      </div>
+      
+
+
+    <!-- Education section -->
+    <section id    = "education">
+        <p       class = "section-text-one">About My</p>
+        <h1      class = "title">Education</h1>
+            
+            <div class = "education-details-container">
+
+                <div class = "about-containers">
+
+                    <div class = "details-container">
+
+                        <h2  class = "education-sub-title">Universitat de&nbsp;Girona</h2> <!-- the '&nbsp' ensures that "de Girona" stays together-->
+                        <div class = "article-container">
+                            <article>
+                                <div>
+                                    <h3>Computer Engineering Bachelor's</h3>
+                                    <p>
+                                        I am currently pursuing a degree in Computer Engineering, currently in third year.
+                                        I've been focusing my studies learning  knowledge in programming, algorithms, 
+                                        system architectures, alongside with hands-on projects to apply learned concepts in
+                                        a practical manner.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+
+                    <div class = "details-container">
+
+                        <h2  class = "education-sub-title">Maristes Girona</h2>
+                        <div class = "article-container">
+                            <article>
+                                <div>
+                                    <h3>High School - STEM focused</h3>
+                                    <p>
+                                        During high school, I specialized in STEM subjects so I could build a strong
+                                        foundation in mathematics, physics, and computer science. This preparation
+                                        has been essential so that I could be able to solve the challenges in my
+                                        Computer Engineering studies.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                    <div class = "details-container">
+
+                        <h2  class = "education-sub-title">Collège St. Louis</h2>
+                        <div class = "article-container">
+                            <article>
+                                <div>
+                                    <h3>Student Exchange Program</h3>
+                                    <p>
+                                        I was part of a student exchange program in France, where I discovered a 
+                                        different culture and was able to develop skills so that I could be able to adapt 
+                                        to different environments. This experience has provided me skills that can help me 
+                                        in my studies and in my career.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    <!-- Skills section -->
+    <section id    = "skills">
+        <p       class = "section-text-one">Explore My</p>
+        <h1      class = "title">Skills</h1>
+            
+            <div class = "skills-details-container">
+
+                <div class = "skills-about-containers">
+
+                    <h2  class = "skills-sub-title">Programming Languages & Other</h2>
+                    <div class = "skills-article-container">
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Advanced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Advanced</p>
+                                <p></p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>R</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>Bash</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>ReactJS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="check.png" alt="checkmark" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+
+
+    <!-- Download classic CV section -->
+    <section id    = "download">
+        <p       class = "section-text-one">Want the complete CV?</p>
+        <h1      class = "title">Get the Classic Resume</h1>
+    
+            <div class = "btn-container">
+                <button
+                class="btn btn-color-1"
+                onclick="window.open('https://drive.google.com/file/d/1AQevqcwVZaLETrK275S1IqZ4XrtWOTMK/view?usp=drive_link', '_blank')"
+                rel="noopener"
+                >
+                Download Cv
+                </button>
+            </div>        
+    
+    </section>
+
+    <!--  Clickable Upside arrow to check the about section above -->
+    <a   href  = "#navbar-container" class = "up-arrow-link">
+        <div class = "up-arrow"></div>
+    </a>
+    
+
+    
+    <script src="script.js"></script> <!-- To load the Hamburger menu for mobile devices -->
+  
+</body>
+</html>

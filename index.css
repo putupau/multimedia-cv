@@ -1,0 +1,151 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* SECTIONS */
+
+section
+{
+  padding-top: 10vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container
+{
+  display: flex;
+}
+
+
+/* about SECTION */
+
+#about
+{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 72vh; /* Position of the profile (height) */
+  padding: 2rem 0;
+}
+
+.section-image-container
+{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
+  border-radius: 50%; /* Ensures the container is round */
+  overflow: hidden; /* Keeps the image within the circular shape */
+}
+
+.section-image-container img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Scales the image to fully cover the container */
+}
+
+
+.section-text
+{
+  align-self: center;
+  text-align: center;
+}
+
+.title
+{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.section-text p
+{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.section-text-one
+{
+  text-align: center;
+}
+
+.section-text-two
+{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-text-three
+{
+  max-width: 705px; /* Reduce width to make it less wide */
+  margin: 0 auto; /* Centers the paragraph */
+  text-align: justify; /* Justifies the text within the paragraph */
+  font-weight: 400; /* Adjust font weight if needed */
+  padding: 1.5rem;
+  flex: 1;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+
+/* PROFILE BUTTONS */
+.btn-container
+{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 2rem; /* Same vertical gap as the 'section-texts' above */
+}
+
+.btn
+{
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
+/* COMMON BUTTON STYLES */
+.btn-color-1, .btn-color-2
+{
+  border: black 0.1rem solid;
+}
+
+.btn-color-1, .btn-color-2:hover
+{
+  background: black;
+  color: white;
+}
+
+/* BTN-COLOR-1 */
+.btn-color-1:hover
+{
+  background: white; /* Changes background to white */
+  color: black; /* Changes text color to black for visibility */
+  cursor: pointer;
+}
+
+/* BTN-COLOR-2*/
+.btn-color-2
+{
+  background: none;
+}
+
+.btn-color-2:hover
+{
+  border: white 0.1rem solid;
+  color: white; /* Text remains visible if background changes */
+  cursor: pointer;
+}

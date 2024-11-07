@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Section Text Alignment */
+.section-text, .section-text-one
+{
+  text-align: center;
+}
+
+/* Title Styling */
+.title
+{
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Contact Section */
+#contact
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10vh;
+}
+
+.contact-info-containers
+{
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  background-color: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info p
+{
+  font-size: larger;
+}
+
+.contact-icon
+{
+  font-size: 30px;
+  color: #333;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.contact-icon:hover
+{
+  color: #0077b5; /* Optional hover color */
+}
