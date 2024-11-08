@@ -20,5 +20,6 @@ For typography, I've chosen the popular **Poppins** font, a free, Google-provide
 ## Project Inspiration
 I opted for this straightforward structure, inspired by a mix of a YouTube portfolio tutorial and a business template on Wix. This, again, ensures that the site is accessible for both formal and informal users.
 
+Figma design proposal: https://www.figma.com/design/GanJFz1Fg5AbgrqA31l4kA/hypermedia-cv-portfolio?node-id=0-1&t=fYzurrJo9ushmJX0-1
 YouTube tutorial link: https://www.youtube.com/watch?v=NWZQkwXtHJo
 Wix Business Template: https://www.wix.com/website-template/view/html/2622?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv&tpClick=view_button&esi=a16a5d67-d75b-4f84-94fa-5e07eb30f1bc
